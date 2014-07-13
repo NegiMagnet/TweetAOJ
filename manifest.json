@@ -1,0 +1,11 @@
+{
+	"name":"TweetAOJ",
+	"version":"1",
+	"manifest_version":2,
+	"description":"set tweet button on Aizu Online Judge",
+	"content_scripts":[	{
+		"matches":["http://judge.u-aizu.ac.jp/onlinejudge/status.jsp"],
+		"js":["script.js"],
+		"run_at":"document_end"
+	}]
+}
