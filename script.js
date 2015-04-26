@@ -8,7 +8,7 @@ for(var i=7; i<dats.length; i++) {
 		judge = judge.replace(/<.+?>/g, '');
 		text += '[' + judge.substring(2) + '] ';
 	} else {
-		text += '[Compile Error] ';
+		text += '[Compile ERROR] ';
 	}
 
 	user += '' + tdLeft[1].innerHTML;
